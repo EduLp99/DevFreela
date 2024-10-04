@@ -10,7 +10,7 @@ Os clientes podem publicar projetos com as informações iniciais (título, desc
 ## Tecnologias Utilizadas ⌨️
 - ASP.NET Core 7
 - Entity Framework Core
-- SQL Server
+- PostgreSQL
 - XUnit
 - Autenticação e Autorização com JWT Bearer
 
