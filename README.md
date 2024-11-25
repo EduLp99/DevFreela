@@ -1,6 +1,6 @@
 # DevFreela
 
-##Projeto de estudo de uma plataforma Freelancer usando .NET 7.0
+## Projeto de estudo de uma plataforma Freelancer usando .NET 7.0
 
 **DevFreela** foi desenvolvido com o objetivo de fixação dos conceitos de **Arquitetura Limpa**, **Padrão Repository**, **CQRS**, **JWT** e **Testes Unitários**. É uma API onde os usuários podem se cadastrar como **Freelancers** e/ou **Clientes**, ofertando projetos (no caso de clientes) e prestando serviços (no caso de freelancers).
 
