@@ -1,29 +1,30 @@
 # DevFreela
 
-## Projeto de estudo de uma plataforma Freelancer usando .NET 7.0
+## A study project for a Freelancer platform using .NET 7.0
 
-**DevFreela** foi desenvolvido com o objetivo de fixação dos conceitos de **Arquitetura Limpa**, **Padrão Repository**, **CQRS**, **JWT** e **Testes Unitários**. É uma API onde os usuários podem se cadastrar como **Freelancers** e/ou **Clientes**, ofertando projetos (no caso de clientes) e prestando serviços (no caso de freelancers).
+**DevFreela** was developed to solidify concepts such as **Clean Architecture**, the **Repository Pattern**, **CQRS**, **JWT**, and **Unit Testing**. It is an API where users can register as **Freelancers** and/or **Clients**, allowing clients to post projects and freelancers to provide services.
 
-### Funcionalidade principal
-Os clientes podem publicar projetos com as informações iniciais (título, descrição, valor), e freelancers podem se candidatar para executar esses projetos.
+### Main Functionality
+Clients can publish projects with initial information (title, description, value), and freelancers can apply to execute these projects.
 
-## Tecnologias Utilizadas ⌨️
-- ASP.NET Core 7
-- Entity Framework Core
-- PostgreSQL
-- XUnit
-- Autenticação e Autorização com JWT Bearer
+## Technologies Used ⌨️
+*   ASP.NET Core 7
+*   Entity Framework Core
+*   PostgreSQL
+*   xUnit
+*   Authentication and Authorization with JWT Bearer
 
-## Funcionalidades ⚙️
-- **Cadastro de usuários** (Cliente e Freelancer)
-- **Login de usuários** utilizando autenticação e autorização via JWT
-- **CRUD de Projetos:** Apenas o cliente tem permissão para criar, editar e excluir projetos
-- **Comentários em projetos:** Clientes e freelancers podem deixar comentários para comunicação sobre o projeto
-- **Status do projeto:** Cliente pode iniciar (Start) e finalizar (Finish) o projeto
+## Features ⚙️
+*   **User Registration** (Client and Freelancer)
+*   **User Login** using authentication and authorization via JWT
+*   **Project CRUD:** Only the client has permission to create, edit, and delete projects
+*   **Project Comments:** Clients and freelancers can leave comments for communication about the project
+*   **Project Status:** The client can start (Start) and finish (Finish) the project
 
-## Padrões, conceitos e arquitetura utilizada 📂
-- Padrão Repository
-- Arquitetura Limpa
-- CQRS
-- Fluent Validation para validação de API
-- Testes unitários com XUnit e NSubstitute
+## Patterns, Concepts, and Architecture Used 📂
+*   Repository Pattern
+*   Clean Architecture
+*   CQRS
+*   Fluent Validation for API validation
+*   Unit tests with xUnit and NSubstitute
+
